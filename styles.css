@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Literata", serif;
+}
+  
+.section-heading, .interests-heading, .contact-form h2 {
+    font-family: 'Literata', serif;
+  }
+  
+#photport h2, #interests h2, #contact h2 {
+    font-family: 'Literata', serif;
+  }
+
+.container-fluid {
+    .navbar-brand {
+        font-family: "Literata", serif;
+        font-size: 40px;
+    }
+    font-family: "Literata", serif;
+    font-size: 20px;
+}
+
+nav.navbar {
+    position: sticky;
+    top: 0;
+}
+
+.btn.colored-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: aliceblue; /* Text color */
+    background-color: rgb(88, 157, 199); /* Button background color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+.animation {
+    position: relative;
+    font-size: 4em;
+  }
+  
+.animation .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+.animation .letter {
+    display: inline-block;
+    line-height: 1em;
+    transform-origin: 0 0;
+  } 
+
+#about .icon {
+    width: 50px; /* Shrinks the icons */
+    height: 50px;
+    fill: #161f29; /* Icon color */
+    transition: fill 0.3s ease; /* Add hover animation */
+}
+
+#about .icon:hover {
+    fill: #06516f; /* Change color on hover */
+}
+
+#about ul {
+    padding: 0;
+    margin: 0;
+}
+
+#about ul li {
+    display: inline-block;
+    margin: 0 10px; /* Adds spacing between icons */
+}
+
+.icon:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+}
+
+.social-icons {
+    text-align: right;       /* Align icons to the right */
+}
+
+/* About Me Wrapper */
+.about-content {
+    display: inline-block;  /* Groups heading, paragraph, and icons */
+    text-align: right;      /* Aligns everything to the right */
+}
+
+/* About Me paragraph styling */
+#about p {
+    font-size: 20px;       
+    line-height: 1.6;      
+    max-width: 450px;     
+    text-align: justify;   
+    margin: 0 auto;       
+    padding: 15px;        
+}
+
+#photographycarousel .carousel-inner img {
+    max-width: 60%; 
+    height: auto; 
+    margin: 0 auto;
+  }
+  
+#photographycarousel .carousel-item:nth-child(4) img,
+#photographycarousel .carousel-item:nth-child(8) img {
+    max-width: 30%; /* Set the desired size */
+    height: auto;   /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the images */
+  }
+
+#projects img {
+    max-width: 60%; 
+    height: auto; 
+    margin: 0 auto;
+}
+
+#interests .interest-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#interests .interest-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
